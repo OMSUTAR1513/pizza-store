@@ -1,7 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .body{
     background-color: aliceblue;
 }
-.headerText{
+header{
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+.menuBar{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 10px 20px;
+}
+.menuLogo a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 400px;
+    font-size: 24px;
+    color: #ff9900;
+    font-weight: 800;
+    text-decoration: none;
+}
+.menuText{
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menuText a{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menuText a:hover{
+    color: #ff9900;
 }
