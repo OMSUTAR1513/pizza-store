@@ -5,6 +5,7 @@
 }
 .body{
     background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
     background-color: white;
@@ -18,7 +19,6 @@ header{
    padding: 10px 20px;
 }
 .menuLogo a{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-right: 400px;
     font-size: 24px;
     color: #ff9900;
@@ -27,7 +27,6 @@ header{
 }
 .menuText{
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .menuText a{
     padding: 20px;
@@ -39,3 +38,21 @@ header{
 .menuText a:hover{
     color: #ff9900;
 }
+
+/* //------------second layer------------// */
+.layerTwo{
+    display: flex;
+    justify-content: space-between;
+}
+.layerTwo img {
+    margin-right: 135px;
+}
+.layerTwoText{
+    align-content: center;
+    margin: 135px;
+}
+.layerTwoText h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
