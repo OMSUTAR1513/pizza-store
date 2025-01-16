@@ -5,7 +5,7 @@
 }
 .body{
     background-color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     background-color: white;
@@ -53,6 +53,20 @@ header{
 }
 .layerTwoText h1{
     font-size: 60px;
-    font-weight: 900;
+    margin-bottom: 20px
 }
-
+.layerTwoText h2{
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+.layerTwoText button{
+    padding: 10px 15px;
+    color: aliceblue;
+    background-color: #ffb546;
+    border-radius: 6px;
+    border-color: aliceblue;
+    cursor: pointer;
+}
+.layerTwoText button:hover{
+    background-color: #ff9900;
+}
