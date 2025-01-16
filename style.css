@@ -19,7 +19,7 @@ header{
    padding: 10px 20px;
 }
 .menuLogo a{
-    padding-right: 400px;
+    padding-right: 500px;
     font-size: 24px;
     color: #ff9900;
     font-weight: 800;
@@ -53,7 +53,8 @@ header{
 }
 .layerTwoText h1{
     font-size: 60px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    color: #ff9900;
 }
 .layerTwoText h2{
     font-size: 33px;
